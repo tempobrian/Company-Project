@@ -18,14 +18,11 @@ main {
   align-items: center;
   z-index: 99;
   background: #FFF;
-
+  border-bottom: 1px solid lightgray;
 }
+
 .nav-links {
   list-style: none
-}
-
-.nav-links a {
-  text-decoration: none;
 }
 
 .nav-links .nav-item {
@@ -35,6 +32,15 @@ main {
 
 .nav-logo img {
   width: 250px;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #8a8888;
 }
 
 .hero-banner {
@@ -68,6 +74,7 @@ main {
   margin-top: 10px;
   margin-left: 20px;
   border-radius: 5px;
+  border: none;
 }
 
 .hero-btn a {
@@ -138,4 +145,22 @@ main {
   display: block;
   margin: auto;
   width: 70%;
+}
+
+#contact-us {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  margin: 30px 0px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.social-media-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 6.5%;
 }
