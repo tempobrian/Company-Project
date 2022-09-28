@@ -92,3 +92,50 @@ main {
   padding-top: 10px;
   margin: auto;
 }
+
+#products {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 50px;
+}
+
+#featured-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  width: 50%;
+}
+
+.feature .center {
+  display: block;
+  margin: 10px 100px;
+  padding: 50px;
+  border: 15px inset #fb1681;
+}
+
+.feature .hero-btn {
+  display: block;
+  margin: 0px auto 20px auto;
+}
+
+.feature .image-container {
+  margin: 10px;
+}
+
+.feature .content {
+  text-align: center;
+}
+
+.content p {
+  font-size: 1.1rem;
+  padding: 20px 50px;
+  line-height: 1.5;
+}
+
+.feature img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
